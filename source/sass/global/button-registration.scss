@@ -1,0 +1,36 @@
+.button-registration-container {
+  width: 100%;
+  margin-bottom: 5%;
+  margin: 3% auto;
+
+}
+
+.button-registration {
+  display: block;
+  font-size: 25px;
+  margin: 0 auto;
+  padding-left: 5%;
+  padding-right: 5%;
+  height: 70px;
+  text-align: justify;
+  color: #ffffff;
+  background-color: rgb(155,203,60);
+  border:rgb(155,203,60);
+  border-radius: 5px;
+  box-shadow: #677577 4px 4px 4px 5px;
+  @media (max-width: 1023.9px) {
+    font-size: 15px;
+    height: 45px;
+  }
+
+  @media (max-width: 767.9px) {
+    margin: 20px auto;
+    font-size: 16px;
+    height: 40px;
+  }
+}
+
+.button-registration:hover {
+  box-shadow: #6b3a80 5px 5px 5px 5px;
+  border:rgb(200, 255, 1);
+}
