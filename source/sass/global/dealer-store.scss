@@ -1,0 +1,79 @@
+
+.section-dealer {
+  padding: 0 0 50px;
+  font-size: 19px;
+}
+
+.section-dealer button {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  font-family: inherit;
+  font-weight: 700;
+  color: #fff;
+  background: #9bcb3c;
+  border: 0;
+  border-radius: 5px;
+  padding: 15.5px 92.5px;
+  cursor: pointer;
+  transition-duration: 0.7s;
+}
+
+.section-dealer button:hover {
+  box-shadow: 0 0 10px 5px rgba(197, 197, 204, 0.418);
+  transition-duration: 0.9s;
+}
+
+.section-dealer {
+  width: 80%;
+  margin: 0 auto;
+  height: 200px;
+  border: 1px solid #000;
+  padding: 25px;
+  transition-duration: 0.9s;
+}
+
+.section-dealer__wrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow-y: hidden;
+}
+
+.section-dealer__wrapper--hide-some-content {
+  overflow: hidden;
+  background: linear-gradient(
+      to bottom,
+      rgba(126, 125, 125, 0.753)60%);
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+.section-dealer__wrapper button {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, 0);
+  border: 0;
+  border-radius: 50%;
+  background: #ffffff;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.section-dealer__wrapper img {
+  width: 35px;
+  height: 35px;
+  transform: rotate(0deg);
+  border-radius: 50%;
+  fill: #fff;
+  padding: 0;
+  margin: 0;
+}
